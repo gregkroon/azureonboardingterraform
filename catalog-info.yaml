@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azureonboardingterraform
+  tags:
+  - hcl
+  annotations:
+    github.com/project-slug: gregkroon/azureonboardingterraform
+    harness: "true"
+    harness.io/language: HCL
+    harness.io/source-repo: https://github.com/gregkroon/azureonboardingterraform
+spec:
+  type: service
+  lifecycle: production
+  owner: user:account/greg.kroon
